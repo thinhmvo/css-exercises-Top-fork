@@ -30,6 +30,8 @@ img {
 
 }
 
+/* This exercise use flex-direction: column so each container display vertically. There are three container total"
+
 /* do not edit this footer */
 .footer {
   position: fixed;
