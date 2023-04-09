@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .header {
@@ -21,13 +22,13 @@ body {
 .container {
   flex: 1;
   display: flex;
-
 }
 
 .card-container {
   display: flex;
+  padding: 16px;
+  margin: 16px;
   flex-wrap: wrap;
-
 }
 
 
@@ -50,16 +51,29 @@ body {
   padding: 16px;
 
 }
+
 a {
   text-decoration: none;
+  color: white;
+  font-size: 24px;
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
+li {
+  margin-bottom: 16px;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding: 32px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
 }
+
